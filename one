@@ -1,0 +1,5 @@
+关于如何求C的数组长度，即数组元素个数。
+void Len(Elemtype a[],int* len)
+{
+  *len=sizeof(a)/sizeof(Elemtype);//这里的sizeof(a)表示对整个数组求尺度。
+}；
